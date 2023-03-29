@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>virtualfirst</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/virtualfirst.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="icon" href=""><img src="../../img/menulines.png" alt=""></a>
+      <div class="menu">
+        <button id="menu-toggle" aria-label="Menu"></button>
+        <nav id="menu">
+          <ul>
+            <li><a href="#">Welcome</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <a class="logo" href=""><img src="../../img/artworks.png" alt=""></a>  
+      <a class="logo-login" href=""><img src="../../img/login museum.jpg" alt=""></a>
+      </header>
+      <main class="main"> 
+        <div>
+        <h2 class="text1">Welcome back Maria</h2>
+      </div>
+      <div>
+        <a class="link1" href="">Schechule a virtual group</a>
+</div>
+<div>
+  <a class="link2" href="">My Tours</a>
+</div>
+<div>
+  <h2 class="text2">Recommended for you</h2>
+  </div>
+
+<div class="photos">
+  
+  <div class="photos1"><img src="../../img/museum2.jpg" alt="">
+  </div>
+  <div class="photos2"><img src="../../img/museum1.jpg" alt="">
+  </div>
+  <div class="photos3"><img src="../../img/museum3.jpg" alt="">
+  </div>
+    <div class="icons">
+      <i class="fa-solid fa-ellipsis"></i>
+    </div>
+</div> 
+</main>
+<footer class="footer">
+  <div>
+    <div class="icons2"><i class="fa-solid fa-ellipsis"></i>
+    </div>
+    <a class="arrow" href=""><i class="fa-solid fa-angle-left"></i></a>
+  </div>
+</footer>
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+const menu = document.getElementById('menu');
+
+menuToggle.addEventListener('click', function() {
+  menu.classList.toggle('open');
+});
+</script>
+</body>
+</html>

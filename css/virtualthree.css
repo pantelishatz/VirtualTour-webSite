@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    header {
+        background-color: #ABF066;
+        width: 100%;
+        top: auto;
+        bottom: auto;
+        position: absolute;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        max-height: 18%;
+    }
+    .menu > img {
+        display: flex;
+        position: absolute;
+        width: 250px;
+        left:0;
+        top: 10px;
+    
+    }
+    .logo > img {
+        display: flex;
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 150px;
+        height: 100px;
+        vertical-align: center;
+        bottom: 0;
+    }
+    .logo-login > img {
+      max-width: 35%;
+      max-height: 100%;
+        position: absolute;
+        width: auto;
+        height: auto;
+        left: auto;
+        bottom: auto;
+        top: 0;
+        right: 0;
+        margin-left:auto;
+        margin-right:auto;
+        display: flex;
+        object-fit: contain;
+        
+    }
+    .menu ul {
+        display: none;
+        list-style-type:none;
+        margin: 0;
+        padding: 0;
+        width: 100px;
+      }
+
+    .main {
+        align-items: center;
+        position:absolute;
+        height: auto;
+        width: 100%;
+        max-height: 300px;
+        margin: 0;
+      }
+    .main-img {
+    box-sizing: border-box;
+    border: 0px none #F0EFD9;
+    width: 570px;
+    height: 380px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    max-width: 610px;
+    max-height: 650px;
+    align-self: middle;
+    }  
+    
+    .main-img > img {
+        box-sizing: border-box;
+  border: 0px solid #F0EFD9;
+  width: 550px;
+  height: 320px;
+  position: relative;
+  right: 0;
+  left: 0;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-top: 10px;
+  max-width: auto;
+  box-shadow: 0px 6px rgb(201, 198, 198);
+    }
+
+    .text1 {
+      text-align: center;
+      color: #4E34B7 ;
+      font-family: Italic;
+      position: absolute;
+      font-size: 40px ;
+      text-shadow: rgb(14, 13, 13);
+      left: 0;
+      right: 0;
+      bottom: auto;
+      top: 220px;
+    }
+    .text2 {
+        text-align: center;
+      color: #51B0B6 ;
+      /* font-family: 'Inter'; */
+      font:italic;
+      position: absolute;
+      font-size: 28px ;
+      left: 0;
+      right: 0;
+      bottom: auto;
+      top: auto;
+      margin-top: 3px;
+      text-shadow: 1px 2px  rgb(100, 99, 99);
+    }
+
+    .text3 {
+        text-align: center;
+        font-size: 40px ;
+        font-family: Italic;
+        color: #3344D7;
+        left: 0;
+        right: 0;
+        bottom: auto;
+        top: 200px;
+        margin-top: 520px;
+        position: absolute;
+    }
+    .menumain {
+        display: flex;
+        box-sizing: border-box;
+        border: 1px solid #EEEFE2;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 450px;
+        height: 400px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 390px;
+        margin-bottom: auto;
+        max-width: 500px;
+        max-height: 500px;
+        background: #F9FBE2;
+        align-items: center;
+        padding-top: 20px;
+        top: 400px;
+    }
+    .cardnumber {
+    font-size: 19px ;
+      text-shadow: rgb(14, 13, 13);
+      left: 0;
+      right: 0;
+      top: 40px;
+      margin-left: 20px;
+      position: absolute;
+      margin-right: 25px;
+      color: #51B0B6 ;
+    }
+    .Expiration {
+        font-size: 19px ;
+      text-shadow: rgb(14, 13, 13);
+      left: 0;
+      right: 0;
+      position: absolute;
+      top: 90px;
+      margin-left: 20px;
+      margin-right: 55px;
+      color: #51B0B6 ;
+    }
+
+    .CVV {
+        font-size: 19px ;
+      text-shadow: rgb(14, 13, 13);
+      left: 0;
+      right: 0;
+      position: absolute;
+     top: 150px;
+      margin-left:20px;
+      margin-right: 55px;
+        color: #51B0B6 ;
+        text-shadow: gray;
+    }
+    .cardholder {
+        font-size: 19px ;
+        text-shadow: rgb(14, 13, 13);
+        left: 0;
+        right: 0;
+        position: absolute;
+        top: 160px;
+        margin-top: 45px;
+        margin-left:20px;
+        margin-right: 55px;
+          color: #51B0B6 ;
+          text-shadow: gray;
+    }
+
+    .savecard {
+        font-size: 19px ;
+        text-shadow: rgb(14, 13, 13);
+        left: 0;
+        right: 0;
+        position: absolute;
+        top: 230px;
+        margin-top: 75px;
+        margin-left:260px;
+          color: #51B0B6 ;
+          text-shadow: gray;
+    }
+
+    .input1 {
+        width: 180px;
+        text-align: center;
+     top: 40px;
+      left: 50px;
+      position: absolute;
+      right: -80px;
+      height: 25px;
+      font-size: medium;
+      margin: auto;
+      background: #ccc9c9;
+      border: none;
+
+    }
+    .input2 {
+      width: 180px;
+      text-align: center;
+      top: 90px;
+      left: 50px;
+      position: absolute;
+      right: -80px;
+      height: 25px;
+      font-size: medium;
+      margin: auto;
+      background: #ccc9c9;
+      border: none;
+    }
+    .input3 {
+        width: 180px;
+        text-align: center;
+     top: 150px;
+      left: 50px;
+      position: absolute;
+      right: -80px;
+      height: 25px;
+      font-size: medium;
+      margin: auto;
+      background: #ccc9c9;
+      border: none;
+    }
+
+    .input4 {
+        width: 180px;
+        text-align: center;
+        top: 205px;
+        left: 50px;
+        position: absolute;
+        right: -80px;
+        height: 25px;
+        font-size: medium;
+        margin: auto;
+        background: #ccc9c9;
+        border: none;
+    }
+    .input5 {
+        width: 20px;
+        text-align: center;
+        top: 305px;
+        left: 210px;
+        position: absolute;
+        right: -80px;
+        height: 20px;
+        font-size: medium;
+        margin: auto;
+        background: #ccc9c9;
+        border: none;
+    }
+
+    .link1 {
+      text-align: center;
+      top: 160px;
+      margin-top: 200px;
+      left: 0;
+      right: 0;
+       font-size: 1rem;
+       background: #6FB1B6;
+       color: aliceblue;
+       position: absolute;
+       padding: 2px;
+       text-decoration: none;
+       width: 100px;
+       height: 20px;
+       border-radius: 10px;
+       align-items: center;
+       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    }
+
+
+    
+     .footer {
+        display: flex;
+     background-color: #ABF066;
+     height: 180px;
+     justify-content:center;
+     align-items: center;
+     position:absolute;
+     width: 100%;
+     left: 0;
+     bottom: 0;
+     padding: auto;
+     clear: both;
+     min-height: 60px;
+     top: 1400px;
+
+}
+.icons2 {
+    display: flex;
+    left: auto;
+    right: auto;
+    width: auto;
+    height: auto;
+    position: absolute;
+    font-size: 180px;
+    margin-top: -10px;
+    margin-left: -130px ;
+  }
+      
+  .arrow {
+    left: auto;
+     right: auto;
+     width: auto;
+     height: 40px;
+     position: absolute;
+     font-size: 180px;
+     margin-top: -160px;
+     margin-right: 150px;
+     margin-left: -190px;
+     color: #000;
+   }
+      
+      @media (max-width: 800px) {
+          .header img {
+              width: 100%;
+          }
+          .header {
+              width: 100%;
+              justify-content:center;
+              display: flex;
+          }
+      
+          .nav-item {
+              display:flexbox;
+          }
+          .menu {
+              display: flex;
+              flex-direction: row;
+            }
+            
+            .menu ul {
+              display: flex;
+              list-style-type:circle;
+              margin: 0;
+              padding: 0;
+              width: 100px;
+              size: 100rem;
+            }
+            
+            .menu li {
+              text-align:start;
+              position: absolute;
+              width: 150px;
+              height: 60px;
+              left: 0.8rem;
+            }
+            
+            .menu li > a {
+              border-right: black;
+            }
+            
+            .menu a {
+              display: block;
+              text-decoration: none;
+              color: #000;
+              font-size: 2rem;
+            }
+            .menu > img {
+              display: none;
+            }
+            .logo > img {
+              width: auto;
+              margin: auto;
+            }
+            .logo-login > img {
+              width: auto;
+              margin: auto;
+              height: auto;
+            }
+      }
